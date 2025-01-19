@@ -1,5 +1,13 @@
 import { motion } from 'motion/react';
 import { Heart } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+
+const onClickScroll = (id: string) => {
+  const section = document.getElementById(id);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+};
 
 const Hero = () => {
   return (
@@ -22,9 +30,9 @@ const Hero = () => {
                 duration: 0.4,
                 scale: { type: 'spring', visualDuration: 0.4, bounce: 0.5 },
               }}
-              className="text-4xl md:text-6xl font-bold text-gray-800 mb-4"
+              className="text-4xl md:text-6xl font-bold text-gray-800 mb-4 font-sans"
             >
-              Hi E,
+              Elsy,
               <span className="block text-pink-500">
                 Have the Happiest 24th Birthday!
               </span>
@@ -47,37 +55,27 @@ const Hero = () => {
               making my world so much brighter. I love you so much sayang
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-pink-50 rounded-xl p-6 transform hover:scale-105 transition-transform">
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">
-                  Our Story
-                </h3>
-                <p className="text-gray-600">
-          
-                </p>
-              </div>
+              <Button
+                onClick={() => onClickScroll('our-story')}
+                className="bg-pink-50 rounded-xl p-6 transform hover:scale-105 transition-transform text-gray-600 hover:bg-pink-300"
+              >
+                Our Story
+              </Button>
 
-              <div className="bg-pink-50 rounded-xl p-6 transform hover:scale-105 transition-transform">
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">
-                  Photo Gallery
-                </h3>
-                <p className="text-gray-600">
-                 
-                </p>
-              </div>
+              <Button
+                onClick={() => onClickScroll('photo-gallery')}
+                className="bg-pink-50 rounded-xl p-6 transform hover:scale-105 transition-transform text-gray-600 hover:bg-pink-300"
+              >
+                Photo Gallery
+              </Button>
 
-              <div className="bg-pink-50 rounded-xl p-6 transform hover:scale-105 transition-transform">
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">
-                  Love Notes
-                </h3>
-                <p className="text-gray-600"></p>
-              </div>
+              <Button
+                onClick={() => onClickScroll('letter')}
+                className="bg-pink-50 rounded-xl p-6 transform hover:scale-105 transition-transform text-gray-600 hover:bg-pink-300"
+              >
+                Love Notes
+              </Button>
             </div>
-          </div>
-
-          <div className="flex justify-center space-x-2 items-center text-gray-600">
-            <Heart className="text-pink-500" size={16} />
-            <span>Made with love for you</span>
-            <Heart className="text-pink-500" size={16} />
           </div>
         </div>
       </div>

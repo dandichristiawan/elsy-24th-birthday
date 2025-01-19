@@ -28,28 +28,28 @@ const Gallery = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
-    { id: 1, src: angkotImage, caption: 'Our Angkot Adventure' },
-    { id: 2, src: ballImage, caption: 'Distorted' },
-    { id: 3, src: bandungImage, caption: 'Bandung Trip' },
-    { id: 5, src: boxpImage, caption: 'Photobox Time' },
+    { id: 1, src: angkotImage, caption: 'Ngangkotttt!' },
+    { id: 2, src: ballImage, caption: 'Happy banget disini!' },
+    { id: 3, src: bandungImage, caption: 'Bandung + Elsy = Heaven on earth' },
+    { id: 5, src: boxpImage, caption: 'My fav photobox' },
     { id: 6, src: coupleImage, caption: 'Us ❤️' },
-    { id: 7, src: cuteImage, caption: 'Cute Moments' },
-    { id: 8, src: cute2Image, caption: 'More Cuteness' },
-    { id: 9, src: discoImage, caption: 'Dance Night' },
-    { id: 10, src: eatingImage, caption: 'Food Adventures' },
-    { id: 11, src: elevatorImage, caption: 'Elevator Selfies' },
+    { id: 7, src: cuteImage, caption: 'Cute Elsyy' },
+    { id: 8, src: cute2Image, caption: 'Bandung is lovely, so do u!' },
+    { id: 9, src: discoImage, caption: 'One of my favorite photo of us!' },
+    { id: 10, src: eatingImage, caption: 'Dress kesukaanku😭' },
+    { id: 11, src: elevatorImage, caption: '😻😻😻😻' },
     { id: 12, src: filmImage, caption: 'Movie Date' },
-    { id: 13, src: firstDateImage, caption: 'Our First Date' },
-    { id: 14, src: funnyImage, caption: 'Silly Times' },
-    { id: 15, src: funny2Image, caption: 'More Laughs' },
-    { id: 16, src: groupieImage, caption: 'Group Photo' },
-    { id: 18, src: icecreamImage, caption: 'Ice Cream Date' },
-    { id: 19, src: latestImage, caption: 'Recent Memory' },
-    { id: 20, src: moviesImage, caption: 'Cinema Time' },
-    { id: 21, src: ojekImage, caption: 'Ojek Ride' },
-    { id: 22, src: runningImage, caption: 'Running Together' },
-    { id: 23, src: weddingImage, caption: 'Wedding Moments' },
-    { id: 24, src: wedding2Image, caption: 'More Wedding Joy' },
+    { id: 13, src: firstDateImage, caption: 'Our First Photo Film' },
+    { id: 14, src: funnyImage, caption: 'Silly Elsy!' },
+    { id: 15, src: funny2Image, caption: 'Strolling Around GBK' },
+    { id: 16, src: groupieImage, caption: 'U are so beautiful sayang' },
+    { id: 18, src: icecreamImage, caption: 'Ice Cream Date!' },
+    { id: 19, src: latestImage, caption: 'Love u so much sayang' },
+    { id: 20, src: moviesImage, caption: 'Movie with Elsy' },
+    { id: 21, src: ojekImage, caption: 'Night Ride' },
+    { id: 22, src: runningImage, caption: `Elsy's running event` },
+    { id: 23, src: weddingImage, caption: 'Kondangan Date!' },
+    { id: 24, src: wedding2Image, caption: 'Us marrying? Soon? :)' },
   ];
 
   const nextSlide = () => {
@@ -69,7 +69,7 @@ const Gallery = () => {
   };
 
   return (
-    <section className="bg-gradient-to-b from-white to-pink-100 p-6">
+    <section className="bg-gradient-to-b from-pink-50 to-white p-6" id='photo-gallery'>
       <h3 className="text-2xl font-bold text-gray-800 my-8 text-center">
         Photo Gallery
       </h3>
