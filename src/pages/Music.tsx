@@ -32,9 +32,9 @@ const MusicPlayer = () => {
         className="fixed bottom-5 right-5 bg-pink-300  text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center"
       >
         {isPlaying ? (
-          <VolumeX className="w-6 h-6" />
-        ) : (
           <Volume2 className="w-6 h-6" />
+        ) : (
+          <VolumeX className="w-6 h-6" />
         )}
       </Button>
     </>

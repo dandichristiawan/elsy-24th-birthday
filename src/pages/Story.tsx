@@ -35,7 +35,7 @@ const Story = () => {
             image: officialCoupleImage,
             alt: 'Official Couple',
             title: 'Official Couple',
-            date: 'March 30th, 2023',
+            date: 'March 30th, 2024',
             description:
               'The day I decided to say how much I love you. It was a moment filled with joy and nervous excitement, but the happiness I felt knowing we were now officially together was unparalleled.',
           },
@@ -43,7 +43,7 @@ const Story = () => {
             image: bandungImage,
             alt: 'Memorable Moments',
             title: 'Memorable Moments',
-            date: 'June 1st, 2023',
+            date: 'June 1st, 2024',
             description:
               'Our first trip together to Bandung has been one of my favorite moments. We explored new places, enjoyed delicious food, and deepened our bond, creating memories that we will cherish forever.',
           },
