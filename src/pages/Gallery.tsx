@@ -38,7 +38,7 @@ const Gallery = () => {
     { id: 9, src: discoImage, caption: 'One of my favorite photo of us!' },
     { id: 10, src: eatingImage, caption: 'Dress kesukaanku😭' },
     { id: 11, src: elevatorImage, caption: '😻😻😻😻' },
-    { id: 12, src: filmImage, caption: 'Movie Date' },
+    { id: 12, src: filmImage, caption: 'Cantik banget😭' },
     { id: 13, src: firstDateImage, caption: 'Our First Photo Film' },
     { id: 14, src: funnyImage, caption: 'Silly Elsy!' },
     { id: 15, src: funny2Image, caption: 'Strolling Around GBK' },
